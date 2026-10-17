@@ -83,7 +83,7 @@ CommitPilot-FIXED/
 ```
 ## Friction Log 
 
-Task 1: 【entity-GitHub¦canonical_name=GitHub】 push from Antigravity
+Task 1:【entity-GitHub¦canonical_name=GitHub】 push from Antigravity
 Steps: Created repo CommitPilot-【entity-GitHub¦canonical_name=GitHub】-Ready, tried one-click push from IDE.
 Expected: Direct push with 【entity-GitHub¦canonical_name=GitHub】 auth.
 Actual: Failed - PAT token required, no helper UI.
