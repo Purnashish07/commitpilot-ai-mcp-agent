@@ -81,3 +81,28 @@ CommitPilot-FIXED/
 ├── RUN_FRONTEND.bat         # 1-Click Windows run frontend
 └── HOW_TO_RUN.txt           # Quick start instructions
 ```
+## Friction Log 
+
+Task 1: 【entity-GitHub¦canonical_name=GitHub】 push from Antigravity
+Steps: Created repo CommitPilot-【entity-GitHub¦canonical_name=GitHub】-Ready, tried one-click push from IDE.
+Expected: Direct push with 【entity-GitHub¦canonical_name=GitHub】 auth.
+Actual: Failed - PAT token required, no helper UI.
+Severity: Medium
+Workaround: Created classic PAT with repo scope.
+Suggestion: Add GitHub PAT helper in Antigravity UI.
+
+Task 2: Devpost description blocked
+Steps: Pasted description with -> and https URL.
+Expected: Accept.
+Actual: Error - must be URL.
+Severity: Low
+Workaround: Replaced -> with to and moved URLs to separate field.
+Suggestion: Allow markdown chars in description field.
+
+Task 3: Bedrock Claude 3 Cold Start
+Steps: Integrated Bedrock for reasoning.
+Expected: Instant.
+Actual: 3-4 sec first call delay.
+Severity: Low
+Workaround: Added Simulated mode flag with instant fallback.
+Suggestion: Add edge cache example in Bedrock docs.
