@@ -1,0 +1,20 @@
+HOW TO RUN (Fixed):
+
+1. Extract CommitPilot-FIXED.zip -> you will get backend and frontend folders directly
+
+2. Terminal 1 - Backend:
+   cd backend
+   pip install -r requirements.txt
+   uvicorn main:app --reload --port 8000
+
+3. Terminal 2 - Frontend:
+   cd frontend
+   npm install
+   npm run dev
+
+Open http://localhost:5173
+
+YOUR PREVIOUS ERROR FIX:
+You did: C:\Users\Hp\Downloads\CommitPilot-AI-complete\backend -> not found
+Correct was: cd commitpilot-ai\backend inside that folder.
+Now this fixed zip has no extra folder.
